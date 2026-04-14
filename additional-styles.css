@@ -1,0 +1,853 @@
+/* Additional styles for service pages and enhanced components */
+
+/* Page Header Styles */
+.page-header {
+    background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 100%);
+    color: white;
+    padding: 140px 0 80px;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.page-header p {
+    font-size: 1.25rem;
+    opacity: 0.9;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+}
+
+.header-stats {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.header-stats .stat {
+    text-align: center;
+}
+
+.header-stats .stat h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #60a5fa;
+}
+
+.header-stats .stat p {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+/* Lacerte Header Specific */
+.lacerte-header {
+    background: linear-gradient(135deg, #059669 0%, #047857 100%);
+}
+
+/* Detailed Services Styles */
+.detailed-services {
+    padding: 100px 0;
+}
+
+.service-detail {
+    margin-bottom: 100px;
+}
+
+.service-detail:last-child {
+    margin-bottom: 0;
+}
+
+.service-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.service-detail.reverse .service-content {
+    direction: rtl;
+}
+
+.service-detail.reverse .service-text {
+    direction: ltr;
+}
+
+.service-text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 1.5rem;
+}
+
+.service-text p {
+    font-size: 1.125rem;
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.service-benefits h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.service-benefits ul {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.service-benefits ul li {
+    margin-bottom: 1rem;
+    padding-left: 0;
+    color: #374151;
+    line-height: 1.6;
+}
+
+.service-benefits ul li strong {
+    color: #1f2937;
+    font-weight: 600;
+}
+
+.pricing-info {
+    background: #f8fafc;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #2563eb;
+}
+
+.pricing-info h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+}
+
+.pricing-info p {
+    color: #6b7280;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.compliance-badges {
+    margin-top: 2rem;
+}
+
+.compliance-badges h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.badges {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.badge {
+    background: #2563eb;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.cloud-benefits h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.benefit-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem;
+    background: #f8fafc;
+    border-radius: 8px;
+}
+
+.benefit-item i {
+    color: #2563eb;
+    font-size: 1.25rem;
+}
+
+.benefit-item span {
+    font-weight: 500;
+    color: #374151;
+}
+
+.recovery-stats h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.stats-grid .stat-item {
+    text-align: center;
+    padding: 1rem;
+    background: #f8fafc;
+    border-radius: 8px;
+}
+
+.stats-grid .stat-item h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2563eb;
+    margin-bottom: 0.5rem;
+}
+
+.stats-grid .stat-item p {
+    color: #6b7280;
+    font-size: 0.875rem;
+    margin: 0;
+}
+
+.service-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Service Packages Styles */
+.service-packages {
+    padding: 100px 0;
+    background: #f8fafc;
+}
+
+.packages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.package-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    position: relative;
+    border: 2px solid transparent;
+}
+
+.package-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.package-card.featured {
+    border-color: #2563eb;
+    transform: scale(1.05);
+}
+
+.package-card.featured:hover {
+    transform: scale(1.05) translateY(-5px);
+}
+
+.package-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.package-header h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.price {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 0.25rem;
+}
+
+.price .currency {
+    font-size: 1.25rem;
+    color: #6b7280;
+}
+
+.price .amount {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2563eb;
+}
+
+.price .period {
+    font-size: 1rem;
+    color: #6b7280;
+}
+
+.popular-badge {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #2563eb;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.package-features ul {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.package-features ul li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+    color: #374151;
+}
+
+.package-features ul li i {
+    color: #10b981;
+    font-size: 0.875rem;
+}
+
+/* Lacerte Support Specific Styles */
+.lacerte-overview {
+    padding: 100px 0;
+    background: #fff;
+}
+
+.overview-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.overview-text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 1.5rem;
+}
+
+.overview-text p {
+    font-size: 1.125rem;
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.key-benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.benefit {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.benefit i {
+    font-size: 1.25rem;
+    color: #059669;
+    margin-top: 0.25rem;
+    min-width: 20px;
+}
+
+.benefit h4 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+}
+
+.benefit p {
+    color: #6b7280;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.support-services {
+    padding: 100px 0;
+    background: #f8fafc;
+}
+
+.support-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.support-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.card-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #059669 0%, #047857 100%);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.card-icon i {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.support-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.support-card ul {
+    list-style: none;
+}
+
+.support-card ul li {
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1rem;
+    line-height: 1.5;
+}
+
+.support-card ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #059669;
+    font-weight: bold;
+}
+
+/* Tax Season Support */
+.tax-season-support {
+    padding: 100px 0;
+    background: #fff;
+}
+
+.tax-season-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.tax-season-text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 1.5rem;
+}
+
+.tax-season-text p {
+    font-size: 1.125rem;
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.tax-season-features {
+    margin-bottom: 3rem;
+}
+
+.feature-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.feature-row:last-child {
+    margin-bottom: 0;
+}
+
+.feature {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.feature i {
+    font-size: 1.25rem;
+    color: #059669;
+    margin-top: 0.25rem;
+    min-width: 20px;
+}
+
+.feature h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 0.25rem;
+}
+
+.feature p {
+    color: #6b7280;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.tax-season-stats h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.stats-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.stats-row .stat-item {
+    text-align: center;
+    padding: 1rem;
+    background: #f0fdf4;
+    border-radius: 8px;
+    border: 1px solid #bbf7d0;
+}
+
+.stats-row .stat-item h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #059669;
+    margin-bottom: 0.25rem;
+}
+
+.stats-row .stat-item p {
+    color: #6b7280;
+    font-size: 0.875rem;
+    margin: 0;
+}
+
+/* Common Issues */
+.common-issues {
+    padding: 100px 0;
+    background: #f8fafc;
+}
+
+.issues-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.issue-category {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.issue-category h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.issue-category h3 i {
+    color: #dc2626;
+    font-size: 1rem;
+}
+
+.issue-category ul {
+    list-style: none;
+}
+
+.issue-category ul li {
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1rem;
+    line-height: 1.5;
+}
+
+.issue-category ul li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: #dc2626;
+    font-weight: bold;
+}
+
+/* Support Plans */
+.support-plans {
+    padding: 100px 0;
+    background: #fff;
+}
+
+.plans-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.plan-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    position: relative;
+    border: 2px solid #e5e7eb;
+}
+
+.plan-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.plan-card.featured {
+    border-color: #059669;
+    transform: scale(1.05);
+}
+
+.plan-card.featured:hover {
+    transform: scale(1.05) translateY(-5px);
+}
+
+.plan-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.plan-header h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.plan-card .price .amount {
+    color: #059669;
+}
+
+.plan-card.featured .popular-badge {
+    background: #059669;
+}
+
+.plan-features ul li i {
+    color: #10b981;
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 100px 0;
+    background: #f8fafc;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.testimonial-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.testimonial-content {
+    margin-bottom: 1.5rem;
+}
+
+.testimonial-content p {
+    color: #374151;
+    line-height: 1.6;
+    font-style: italic;
+    margin: 0;
+}
+
+.testimonial-author h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 0.25rem;
+}
+
+.testimonial-author span {
+    color: #6b7280;
+    font-size: 0.875rem;
+}
+
+/* CTA Section */
+.cta-section {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 100%);
+    color: white;
+    text-align: center;
+}
+
+.cta-content h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.cta-content p {
+    font-size: 1.25rem;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Responsive Design for Additional Styles */
+@media (max-width: 768px) {
+    .page-header h1 {
+        font-size: 2.5rem;
+    }
+    
+    .page-header p {
+        font-size: 1.125rem;
+    }
+    
+    .header-stats {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    
+    .service-content,
+    .overview-content,
+    .tax-season-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .service-detail.reverse .service-content {
+        direction: ltr;
+    }
+    
+    .service-text h2 {
+        font-size: 2rem;
+    }
+    
+    .benefits-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .stats-grid,
+    .stats-row {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .feature-row {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .packages-grid,
+    .plans-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .package-card.featured,
+    .plan-card.featured {
+        transform: none;
+    }
+    
+    .package-card.featured:hover,
+    .plan-card.featured:hover {
+        transform: translateY(-5px);
+    }
+    
+    .cta-content h2 {
+        font-size: 2rem;
+    }
+    
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-header {
+        padding: 120px 0 60px;
+    }
+    
+    .page-header h1 {
+        font-size: 2rem;
+    }
+    
+    .service-text h2 {
+        font-size: 1.75rem;
+    }
+    
+    .package-card,
+    .plan-card,
+    .support-card {
+        padding: 1.5rem;
+    }
+    
+    .price .amount {
+        font-size: 2.5rem;
+    }
+}
