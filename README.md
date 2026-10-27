@@ -1,9 +1,4 @@
-Modern UI/UX - Clean, professional design with smooth animations
-SEO Optimized - Proper meta tags, structured content, and semantic HTML
-Fast Loading - Optimized images and efficient CSS/JS
-Accessibility - WCAG compliant with keyboard navigation support
-Cross-browser Compatible - Works on all modern browsers
-File Structure
+
 
 Deployed Website: https://harveyzr.github.io/ITWEBSITE/
 
