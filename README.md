@@ -3,7 +3,10 @@
 Deployed Website: https://harveyzr.github.io/ITWEBSITE/
 
 
-<br>
+## File Structure
+Deployed Website: https://harveyzr.github.io/ITWEBSITE/
+
+
 website/
 ├── index.html              # Homepage with hero section and service overview
 ├── services.html           # Detailed services page with pricing packages
@@ -13,7 +16,7 @@ website/
 ├── styles.css              # Main stylesheet with responsive design
 ├── additional-styles.css   # Extended styles for service pages
 ├── script.js               # Interactive functionality and animations
-└── README.md              # This documentation file
+└── README.md               # This documentation file
 
 ## Page Descriptions
 ### 🏠 **Homepage (index.html)** - Hero section with compelling value proposition - Service overview cards with key features - Lacerte support highlights with statistics - Why choose us section with benefits - About company preview - Contact information and forms
@@ -51,4 +54,4 @@ website/
 ### 📊 **Performance Monitoring** - Regular speed tests - Mobile responsiveness checks - Cross-browser compatibility testing - Accessibility audits - SEO performance reviews
 ---
 **Built with modern web standards and best practices for optimal performance and user experience.**
-For questions or support regarding this website, please contact the development team.
+For questions or support regarding this website, please contact Zach harvey
